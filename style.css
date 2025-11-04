@@ -1,4 +1,8 @@
 h1 {
-    color: gold;
+    color: #CFB991;
     text-align: center;
+}
+
+.top-header{
+    background-color: black;
 }
