@@ -1,10 +1,16 @@
 h1 {
-    color: #CFB991;
+    color: #000000;
     text-align: center;
 }
 
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
 .top-header{
-    background-color: black;
+    background-color: #CFB991;
     margin: 0;
     padding: 0;
 
