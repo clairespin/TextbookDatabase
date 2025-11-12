@@ -23,8 +23,8 @@ body {
 }
 
 .search-bar{
-margin: .5rem;
-float: right;
+    margin: .5rem;
+    float: right;
 }
 
 .slider-container {
@@ -32,10 +32,16 @@ float: right;
     margin-left: .5rem;
     margin-right: .5rem;
     display: block;
+    margin-bottom: 1rem;
+    width: 100%;
 }
 
 .textbook-cover{
-    padding-left: 1rem;
-    width: 6rem;
-    height: 8rem;
+    padding-left: 1.4rem;
+    width: 8rem;
+    height: 10rem;
+}
+
+.scroll-container{
+padding-top: .5rem;
 }
