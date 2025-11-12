@@ -29,11 +29,13 @@ float: right;
 
 .slider-container {
     padding-top: 1rem;
-    margin: 0;
+    margin-left: .5rem;
+    margin-right: .5rem;
+    display: block;
 }
 
 .textbook-cover{
-    padding-left: 2rem;
+    padding-left: 1rem;
     width: 6rem;
     height: 8rem;
 }
