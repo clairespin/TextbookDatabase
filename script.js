@@ -1,7 +1,7 @@
 function openPopup() {
-  document.getElementById("myPopup").style.display = "block";
+  document.getElementById("request-popup").style.display = "block";
 }
 
 function closePopup() {
-  document.getElementById("myPopup").style.display = "none";
+  document.getElementById("request-popup").style.display = "none";
 }
