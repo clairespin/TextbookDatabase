@@ -7,6 +7,29 @@ body {
 button{
     padding: none;
     margin: none;
+    background-color: #000000;
+
+}
+
+.request-container{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(207, 185, 145, 0.9);
+    border-color: #000;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.request-popup{
+    width: 60vw;
+    height: 80vh;
+    background-color: rgba(207, 185, 145, 0.9);
+    border-color: #000;
+    border-width: 5px;
+    border-radius: 1.5rem;
 }
 
 .top-header{
@@ -35,15 +58,16 @@ button{
     padding-top: 1rem;
     margin-left: .5rem;
     margin-right: .5rem;
-    display: block;
+    display: flex;
     margin-bottom: 1rem;
     width: 100%;
+    justify-content: space-between;
 }
 
 .textbook-cover{
-    padding-left: 1.4rem;
     width: 8rem;
     height: 10rem;
+
 }
 
 .scroll-container{
