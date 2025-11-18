@@ -3,7 +3,7 @@
     <head>
         <title>Textbook Database</title>
         <link rel="stylesheet" href="style.css" />  
-        <script src="script.js"></script>
+        <script src="script.js" defer></script>
     </head>
     <body style="width: 100%; overflow-x: hidden;">
         <div class="top-header">
@@ -11,9 +11,10 @@
             <input class="search-bar" type="text" placeholder="Search...">
         </div>
         <div class="request-container">
+            <button id="hide-request">X</button>
             <div class="request-popup">
                 <h2>[Textbook Name]</h2>
-                <div>
+                <div class="separator-container">
                     <img class="request-textbook-cover" src="https://m.media-amazon.com/images/I/51giQxz4LKL._AC_UF1000,1000_QL80_.jpg" alt="CNIT180 Textbook Cover">
                 
                     <div class="chapter-container">
