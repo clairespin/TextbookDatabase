@@ -45,6 +45,10 @@ h2{
     
 }
 
+.corner-functions{
+    display: flex;
+}
+
 .request-popup{
     width: 60vw;
     height: 70vh;
