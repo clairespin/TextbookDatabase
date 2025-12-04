@@ -2,17 +2,34 @@
 <html>
     <head>
         <title>Textbook Database</title>
-        <link rel="stylesheet" href="style.css" />  
+        <link rel="stylesheet" href="style.css" />
         <script src="script.js" defer></script>
     </head>
     <body style="width: 100%; overflow-x: hidden;">
         <div class="top-header">
             <h1 class="logo">Purdue Textbook Database</h1>
-            <div>
-            <button href="request.html"><h3>My Requests</3></button>
-            <input class="search-bar" type="text" placeholder="Search...">
+            <div class="corner-functions">
+                <a class="page-switch" href="index.html"><h3>Home</h3></a>
+                <input class="search-bar" type="text" placeholder="Search...">
             </div>
         </div>
+        <div class="request-container">
+            <button class="hide-request">X</button>
+            <div class="request-popup">
+                <h2 style="padding-left: .5rem;">Systems Analysis and Design</h2>
+                <div class="separator-container">
+                    <img style="padding: .5rem;" class="request-textbook-cover" src="https://m.media-amazon.com/images/I/51giQxz4LKL._AC_UF1000,1000_QL80_.jpg" alt="CNIT180 Textbook Cover">
+                
+                    <div class="chapter-container">
+                        <h1 style="padding:.5rem;">Introduction</h1>
+                        <h3 style="padding: 1rem;">Chapter 1 is the first of three chapters in the systes planning phase. This chapter explains the role of information technology in today's dynamic business environment. This chapter describes the developent of information systems, systems analysis and design concepts, and various systems development methods. This chapter also summarizes the role of the information technologyy department and its people in the enterprise</h3>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="show-request"><img class="textbook-cover" src="https://m.media-amazon.com/images/I/51giQxz4LKL._AC_UF1000,1000_QL80_.jpg" alt="CNIT180 Textbook Cover"></button>
+
         
     </body>
 </html>

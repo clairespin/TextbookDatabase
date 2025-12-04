@@ -17,6 +17,14 @@ h2{
     font-weight: 200;
 }
 
+.page-switch {
+    color: #000;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    text-decoration: none;
+    padding-right: .5rem;
+}
+
 .separator-container{
     display: flex;
     justify-content: space-evenly;
@@ -39,10 +47,27 @@ h2{
     align-items: center;
 }
 
-#hide-request{
+.hide-request{
     position: fixed;
-    
-    
+    top: 9.8rem;
+    right: 18rem;
+}
+
+.request-container2{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(207, 185, 145, 0.9);
+    border-color: #000;
+    z-index: 9999;
+    display: none  ;
+    justify-content: center;
+    align-items: center;
+}
+
+.hide-request2{
+    position: fixed;
+
 }
 
 .corner-functions{
@@ -50,6 +75,17 @@ h2{
 }
 
 .request-popup{
+    width: 60vw;
+    height: 70vh;
+    background-color: rgba(207, 185, 145, 1);
+    border: 5px #000;
+    border-radius: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: -5rem;
+}
+
+.request-popup2{
     width: 60vw;
     height: 70vh;
     background-color: rgba(207, 185, 145);
